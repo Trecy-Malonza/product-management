@@ -1,0 +1,45 @@
+.to-do-listpage{
+    display: grid;
+    background-color: #e0c6e8;
+    border: solid 2px;
+    padding: 50px;
+    width: 500px;
+    margin-left: 300px;
+
+}
+body{
+      
+    width: 80%;
+    padding: 10px; 
+    
+    height: 500%;
+    
+}
+#todo{
+    margin-left: 476px;
+    font-size: 20px;
+    margin-top: 5px;  
+}
+#navbar{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    gap: 10%;
+    background-color: #b61deb;
+    
+
+}
+a{
+    text-decoration: none;
+
+}
+@media only screen and (max-width: 667px){
+    .to-do-listpage{
+        display: grid;
+    }  
+}
+ 
+ 

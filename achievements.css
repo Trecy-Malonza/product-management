@@ -1,0 +1,27 @@
+#achievement{
+   
+    display: grid;
+    background-color: #e0c6e8; 
+    margin-left: 400px;
+    padding: 80px;
+    border: solid 2px;
+    width: 400px;
+}
+body{
+    
+    width: 80%;
+    padding: 10px; 
+    height: 500%;
+    
+}
+#achievementstitle{
+    margin-left: 600px;
+    font-size: 30px;
+    margin-top: 10%;    
+}
+@media only screen and (max-width: 667px){
+    #achievement{
+        display: grid;
+        width: 200px;
+}
+}

@@ -1,0 +1,49 @@
+ body{
+    
+    height: 100%; 
+}
+#formcontainer{
+   
+    background-color: #e0c6e0;
+    border: solid 2px;
+    width: 45%;
+    padding: 102px;
+    margin: auto;
+    background-color: #e0c6e0;
+    
+}
+#button{
+    width: 10px;
+    
+    
+}
+input{
+    margin-left: 70px;
+    border-radius: 60px;
+    height: 40px;
+}
+#formbody{
+    display: flex;
+    gap: 20px;
+}
+#profile image{
+    width: 250px;
+    height: 375px;
+    margin-left: 70px;
+    
+}
+@media only screen and (max-width: 667px){
+    #formcontainer{
+        border: solid 2px;
+        width: 40%;
+        padding: 10px;
+}
+input{
+    margin-left: 1px;
+    border-radius: 20px;
+    height: 40px;}
+}
+
+
+
+

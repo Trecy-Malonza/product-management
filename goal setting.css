@@ -1,0 +1,30 @@
+body{
+    margin-left: 100px;
+    
+}
+#goalsetting{
+    display: flex;
+    gap: 70px;
+    background-color: #e0c6e8; 
+    margin-left: 30px;
+    padding: 80px;
+    border: solid 2px;
+    width: 500px;
+
+}
+#goalsetting1{
+    margin-left: 250px;
+    font-size: 50px;
+    margin-top: 5%;  
+}
+#goalsettingpage{
+    margin-left: 370px;
+}
+
+@media only screen and (max-width: 667px){
+
+}
+body{
+   
+    margin-left: 50px;
+}

@@ -1,0 +1,46 @@
+#formcontainer{
+    border: solid 2px;
+    width: 45%;
+    padding: 12px;
+    margin: auto;
+    background-color: #e0c6e0;
+    
+}
+#button{
+   color: #b61deb;
+    width: 20%;
+    border-radius: 20px;
+    height: 30%;
+    padding: 5px 50px 5px 50px;
+    margin-left: 250px;
+}
+input{
+    
+    margin-left: 70px;
+    border-radius: 60px;
+    height: 40px;
+    width: 70%;
+}
+#login{
+    margin-left: 250px;
+    font-size: 50px;
+    margin-top: 10%;  
+}
+a{
+    text-decoration: none;
+}
+#loginbody{
+ margin-left: 40px;
+ height: 60%;
+ padding: 30px;
+ /* margin-top: px; */
+
+ 
+}
+@media only screen and (max-width: 667px){
+    input{
+        margin-left: 5px;
+        border-radius: 40px;
+        height: 40px;
+    } 
+}
