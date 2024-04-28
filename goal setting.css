@@ -4,27 +4,65 @@ body{
 }
 #goalsetting{
     display: flex;
-    gap: 70px;
+    gap: 50px;
     background-color: #e0c6e8; 
     margin-left: 30px;
-    padding: 80px;
+    padding: 80px; 
     border: solid 2px;
-    width: 500px;
-
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-#goalsetting1{
-    margin-left: 250px;
+#logo{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      color: white;
+      display: flex;
+      gap: 10%;
+      background-color: #b61deb;
+      width: 90%;
+      padding-right: 20px;
+}
+    #goalsetting1{
+    margin-left: 300px;
     font-size: 50px;
     margin-top: 5%;  
 }
+
+    
+
+input{
+    width: 300px;
+    height: 50px;
+}
 #goalsettingpage{
-    margin-left: 370px;
+    margin-left: 230px;
 }
 
 @media only screen and (max-width: 667px){
+body{
+   margin-left: 50px;
+}
+#goalsetting{
+    display: grid;
+    gap: 10px;
+    background-color: #e0c6e8; 
+    padding: 80px; 
+    border: solid 2px;
+    width: 200px;
 
 }
-body{
-   
+#goalsetting1{
     margin-left: 50px;
+    font-size: 50px;
+    margin-top: 5%;  
+}
 }

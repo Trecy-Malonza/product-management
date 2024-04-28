@@ -62,7 +62,33 @@ margin: auto;
 background-color: #e0c6e0;
 
 }
+#signup{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 5px; 
  }
+ #signupcheckbox{
+    display: grid;
+    gap:10px ;
+    margin-left: 50px;
+ }
+ #button{
+    width: 20%;
+    border-radius: 20px;
+    height: 10%;
+    padding: 5px 50px 5px 50px;
+    margin-left: 40px;
+ }
+ #formcontainer{
+    border:solid 2px;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    background-color: #e0c6e0;
+    height: 100%;
+    
+}
+}
 
 
 

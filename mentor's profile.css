@@ -1,22 +1,40 @@
  body{
-    
-    height: 100%; 
+     height: 100%; 
 }
 #formcontainer{
    
     background-color: #e0c6e0;
-    border: solid 2px;
     width: 45%;
     padding: 102px;
     margin: auto;
     background-color: #e0c6e0;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
+}
+.navbar {
+  text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    gap: 10%;
+    background-color: #b61deb;
+    
+}
+a{
+    text-decoration: none;
 }
 #button{
     width: 10px;
     
     
 }
+#logo{
+    width: 100px;
+}
+
 input{
     margin-left: 70px;
     border-radius: 60px;
@@ -27,21 +45,41 @@ input{
     gap: 20px;
 }
 #profile image{
-    width: 250px;
-    height: 375px;
-    margin-left: 70px;
-    
-}
+    object-fit: cover;
+    width: 250%;
+    height: 25%;
+    /* margin-left: 70px;
+    margin-right: 200px; */
+    }
 @media only screen and (max-width: 667px){
     #formcontainer{
-        border: solid 2px;
-        width: 40%;
-        padding: 10px;
+   
+        background-color: #e0c6e0;
+        width: 45%;
+        padding: 102px;
+        margin: auto;
+        background-color: #e0c6e0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-wrap: wrap;
+
 }
 input{
     margin-left: 1px;
     border-radius: 20px;
-    height: 40px;}
+    height: 40px;
+}
+#formbody{
+    display: grid;
+    gap: 10px;
+}
+#profile image{
+    width: 50px;
+    height: 55px;
+    margin-left: 70px;
+    margin-right: 200px;
+    }
+
 }
 
 

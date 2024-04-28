@@ -1,17 +1,16 @@
 .to-do-listpage{
     display: grid;
     background-color: #e0c6e8;
-    border: solid 2px;
-    padding: 50px;
+    padding: 100px;
     width: 500px;
-    margin-left: 300px;
+    margin-left: 400px;
 
 }
 body{
       
     width: 80%;
     padding: 10px; 
-    
+   
     height: 500%;
     
 }
@@ -20,18 +19,22 @@ body{
     font-size: 20px;
     margin-top: 5px;  
 }
-#navbar{
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    color: white;
-    display: flex;
-    gap: 10%;
-    background-color: #b61deb;
-    
 
+.navbar {
+    text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      color: white;
+      display: flex;
+      gap: 15%;
+      background-color: #b61deb;
+      width: 120%;
+  }
+  #logo{
+    width: 100px;
 }
+
 a{
     text-decoration: none;
 
@@ -40,6 +43,39 @@ a{
     .to-do-listpage{
         display: grid;
     }  
+    .navbar{
+        /* padding: 14px 16px; */
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        display: grid;
+        gap: 20%;
+        background-color: #b61deb;
+        padding-bottom: 170px;
+        height: 10px;
+        width: 250px;
+
+       
+        
+    }
+    #todo{
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 10px; 
+        
+    }
+    .to-do-listpage{
+        display: grid;
+        background-color: #e0c6e8;
+        border: solid 2px;
+        padding: 40px;
+        width: 100px;
+        height: 280px;
+        margin-left: 5px;
+        padding-top: 56px;
+    
+    }
+
 }
  
  

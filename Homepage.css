@@ -1,45 +1,45 @@
-body{
-    margin-left: 50px;
-     
-    border: solid 2px; 
-    padding-bottom: 20px;
-}
+/* body{
+    /* margin-left: 25px; */
+      /* padding-bottom: 40px;  */
+      /* border: solid 2px; */
+/* } */
 
- #homepagebody{
-    padding-top: 10px;
-    margin-bottom: 30px;
+ #homepagebody{ 
+    padding-top: 10px; 
+     margin-bottom: 70px;  
     display: flex;
     gap: 10px;
-    background-color: #e0c6e8;
+    background-color: #e0c6e8; 
 
     
 }
-#homebody1{
+#homepagebody1{
     background-color: #e0c6e8;
+    flex-wrap: wrap;
+    padding-top: 50px;
+
 }
 #homepagetext{
-    margin-top: 20px;
-    font-size: 40px;
+    
+    font-size: 20px;
 }
 .navbar {
-  
-
-    text-align: center;
+   text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     color: white;
     display: flex;
-    gap: 20%;
+    gap: 10%;
     background-color: #b61deb;
-    
-   
-    
-} 
-#image{
-    width: 600px;
-    height: 500px;
+    } 
+#ladies{
+    width: 500px;
+    height: 123%;
      margin-right: 50px;
+}
+#logo{
+    width: 100px;
 }
 
     a{
@@ -49,26 +49,36 @@ body{
         
        }
        #homepage{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         
 
        }
-      
-       @media only screen and (max-width: 667px){
-    
+        .footer{
+        display: flex;
+        gap: 25%;
+        /* margin-left: 30px;  */
+         padding: 14px 16px;
+        background-color: #b61deb;
+        padding-right: 30px;
+        padding-bottom: 60px;
+        
+       } 
+       
+
+     @media only screen and (max-width: 667px){
  #homepagebody{
     padding-top: 30px;
-    }
+        }
    .navbar {
         
-        color: #f2f2f2;
-      text-decoration: none;
-        font-size: 20px;
-       background-color: #b61deb;
-        color: white;
-         flex-wrap: wrap;
-         gap: 30px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #b61deb;
+    color: white;
+    flex-wrap: wrap;
+    gap: 20px;
         
         } 
         body{
@@ -76,12 +86,21 @@ body{
             background-color: #e0c6e8;
             flex-wrap: wrap;
         }
-    #image{
+    #ladies{
         width: 400px;
         height: 400px;
     }
-}
-    @media only screen and (max-width: 667px){
+    .footer{
+        display: flex;
+        gap: 10%;
+        padding: 14px 16px;
+        background-color: #b61deb;
+        padding-right: 20px;
+        padding-bottom: 20px;
+} 
+     }
+
+    @media only screen and (max-width: 1024px){
         #image{
             width: 300px;
             height: 400px;  
@@ -103,4 +122,51 @@ body{
     margin-top: 180px;
     font-size: 15px;
 }
+#ladies{
+    width: 150px;
+    height: 200px;
+     margin-right: 50px;
     }
+    #homepagetext{
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    body{
+        margin-left: 20px;
+         border: solid 2px; 
+        /* padding-bottom: 10px; */
+    }
+    #homepage{
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        gap: 8%;
+        /* margin-left: 30px;  */
+         padding: 14px 16px;
+        background-color: #b61deb;
+        padding-right: 30px;
+        padding-bottom: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 13px){
+    .navbar {
+        padding: 14px 16px;
+         text-decoration: none;
+         font-size: 17px;
+         color: white;
+         display: grid;
+         gap: 10%;
+         background-color: #b61deb;
+         padding-top: 100%;
+        
+         } 
+         #ladies{
+            width: 350px;
+            height: 300px;
+             margin-right: 50px;
+            }
+}
