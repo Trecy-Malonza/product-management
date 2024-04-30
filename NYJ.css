@@ -15,3 +15,20 @@ a{
     background-color: #e0c6e8;
     border: solid 2px;
 }
+@media only screen and (max-width: 667px){
+   #summary{
+    font-size: 5px;
+   } 
+   #bornacrimebody{
+    background-color: #e0c6e8;
+    
+}
+body{
+    margin-left: 300px;
+    margin-right: 30px;
+}
+#bornacrimeimage{
+    margin-left: 330px;
+    
+}
+}
