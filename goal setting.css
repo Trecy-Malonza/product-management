@@ -51,18 +51,42 @@ input{
 body{
    margin-left: 50px;
 }
-#goalsetting{
-    display: grid;
-    gap: 10px;
-    background-color: #e0c6e8; 
-    padding: 80px; 
-    border: solid 2px;
-    width: 200px;
 
-}
 #goalsetting1{
     margin-left: 50px;
     font-size: 50px;
     margin-top: 5%;  
+}
+.navbar {
+    text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      color: white;
+      display: grid;
+      gap: 5px;
+      background-color: #b61deb;
+      width: 90%;
+      padding-right: 20px;
+}
+#goalsetting{
+    display: grid;
+    gap: 10px;
+    background-color: #e0c6e8; 
+    padding: 40px; 
+    border: solid 2px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+}
+#goalsetting1{
+    /* margin-left: 10px; */
+    font-size: 50px;
+    /* margin-top: 5%;   */
+}
+body{
+    margin-left: 10px;
+    
 }
 }

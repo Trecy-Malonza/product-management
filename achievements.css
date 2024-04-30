@@ -6,9 +6,20 @@
      padding: 110px; 
      border: solid 2px; 
     width: 700px;
-    /* margin-top: 20px;  */
-    padding-bottom: 30px;
 }
+    /* margi#achievement{
+   
+    display: grid;
+    background-color: #e0c6e8; 
+    margin-left: 230px;
+     padding: 110px; 
+     border: solid 2px; 
+    width: 700px;
+    /* margin-top: 20px;  */
+    /* padding-bottom: 30px;
+}n-top: 20px;  */
+    /* padding-bottom: 30px; */
+/* } */ 
 body{
     
     width: 80%;
@@ -43,9 +54,7 @@ input{
     display: flex;
     margin-right: 130px; 
     gap: 10px;
-    
-    
-}
+    }
 #achievementstitle{
     margin-left: 600px;
     font-size: 25px;
@@ -93,4 +102,35 @@ input{
       padding-bottom: 190px;
       height: 20px;
   }
+}
+  @media only screen and (max-width: 1368px){
+    .navbar {
+        padding: 14px 16px;
+          text-decoration: none;
+          font-size: 37px;
+          color: white;
+          display: grid;
+          /* gap: 0%; */
+          background-color: #b61deb;
+          width: 90%;
+          padding-bottom: 190px;
+          height: 20px;
+          display: grid;
+
+  }
+  #achievement{
+   
+    display: grid;
+    background-color: #e0c6e8; 
+    /* margin-left: 0px; */
+     padding: 110px; 
+     border: solid 2px; 
+    width: 600px;
+    padding-bottom: 10px;
+}
+.achievement1{
+    display: flex;
+    margin-right: 90px; 
+    /* gap: 10px; */
+    }
 }

@@ -1,0 +1,17 @@
+body{
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    /* background-color: #e0c6e8; */
+}
+a{
+    text-decoration: none;
+}
+#bornacrimeimage{
+    margin-left: 330px;
+    margin-top: 50px;
+}
+#bornacrimebody{
+    background-color: #e0c6e8;
+    border: solid 2px;
+}
